@@ -18,6 +18,7 @@ typedef struct {
 } TEscuelasAguirre;
 
 int main() {
+	setlocale(LC_CTYPE, "spanish"); // para que el compilador reconozca las ñ y tildes 
     int TAM = 30;
     TMendezAlvaro vectorMendezAlvaro[TAM];
     TEscuelasAguirre vectorEscuelasAguirre[TAM];
