@@ -61,7 +61,104 @@ int main() {
     }
     
     fclose(fichero2);
-    
+    //COMIENZA EL PROGRAMA:
+	int a, contador=0; 
+	do{
+		printf("           MENÚ PRINCIPAL           \n");
+		printf("Seleccione una opcion:\n \t\t\t1-Búsqueda de datos\n \t\t\t2-Estadísticas\n \t\t\t3-Comparación\n \t\t\t4-Información\n \t\t\t5-Imprimir todos los datos por pantalla\n \t\t\t6-Salir\n\n");
+		scanf("%d", &a);
+		//desarrollamos los casos citados en el menú principal
+		switch (a) {
+			case(1): {
+				//Declaramos las variables.
+				int n=0, k;
+				int x,b;
+				do {
+					n++;
+					if(n>1) {
+						printf("El valor intoducido es incorrecto, por favor introdúzcalo de nuevo\n");
+					}
+					printf("Ha seleccionado \n\n");
+					printf("Si desea volver al menu principal, pulse 0\n");
+					scanf("%d", &b);
+				} while (b!=1 && b!=2 && b!=0); 
+				if(b==0) {
+					break;
+				}
+			}
+			case(2): {
+				//Declaramos las variables.
+				int n=0, k;
+				int x,b;
+				do {
+					n++;
+					if(n>1) {
+						printf("El valor intoducido es incorrecto, por favor introdúzcalo de nuevo\n");
+					}
+					printf("Ha seleccionado \n\n");
+					printf("Si desea volver al menu principal, pulse 0\n");
+					scanf("%d", &b);
+				} while (b!=1 && b!=2 && b!=0); 
+				if(b==0) {
+					break;
+				}
+			}
+			case(3): {
+				//Declaramos las variables.
+				int n=0, k;
+				int x,b;
+				do {
+					n++;
+					if(n>1) {
+						printf("El valor intoducido es incorrecto, por favor introdúzcalo de nuevo\n");
+					}
+					printf("Ha seleccionado \n\n");
+					printf("Si desea volver al menu principal, pulse 0\n");
+					scanf("%d", &b);
+				} while (b!=1 && b!=2 && b!=0); 
+				if(b==0) {
+					break;
+				}
+			}
+			case(4): {
+				//Declaramos las variables.
+				int n=0, k;
+				int x,b;
+				do {
+					n++;
+					if(n>1) {
+						printf("El valor intoducido es incorrecto, por favor introdúzcalo de nuevo\n");
+					}
+					printf("Ha seleccionado \n\n");
+					printf("Si desea volver al menu principal, pulse 0\n");
+					scanf("%d", &b);
+				} while (b!=1 && b!=2 && b!=0); 
+				if(b==0) {
+					break;
+				}
+			}
+			case(5): {
+				//Declaramos las variables.
+				int n=0, k;
+				int x,b;
+				do {
+					n++;
+					if(n>1) {
+						printf("El valor intoducido es incorrecto, por favor introdúzcalo de nuevo\n");
+					}
+					printf("Ha seleccionado 1 \n\n");
+					printf("Si desea volver al menu principal, pulse 0\n");
+					scanf("%d", &b);
+				} while (b!=1 && b!=2 && b!=0); 
+				if(b==0) {
+					break;
+				}
+			}
+		}
+	}while(a!=6);
+	printf("Hasta la próxima\n"); 
+	printf("FIN DEL PROGRAMA"); 
+	
     
     return 0;
 }
